@@ -2,6 +2,9 @@ name: Build Project
 
 on:   
   push: 
+    paths:
+      - src
+      - platformio.ini
   pull_request:
   workflow_dispatch:
 
